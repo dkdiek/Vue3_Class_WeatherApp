@@ -3,8 +3,7 @@
 </template>
 
 <script>
-export default {
-  components: {},
-  data() {},
-};
+export default {};
 </script>
+
+<style></style>
