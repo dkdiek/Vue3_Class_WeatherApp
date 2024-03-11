@@ -250,7 +250,7 @@ export default { components: { Map } };
         </div>
       </div>
     </div>
-    <Map />
+    <MapView />
     <nav>
       <i class="fas fa-home"></i>
       <i class="fas fa-search-location"></i>
@@ -261,7 +261,7 @@ export default { components: { Map } };
 </template>
 
 <script>
-import Map from "~/components/Map.vue";
+import Map from "../components/Map.vue";
 import { ref } from "vue";
 import axios from "axios";
 import dayjs from "dayjs";
@@ -269,7 +269,7 @@ import "dayjs/locale/ko";
 dayjs.locale("ko"); // global로 한국어 locale 사용
 export default {
   components: {
-    Map,
+    MapView: Map,
   },
   setup() {
     // 화면에서 보여질 데이터

@@ -53,5 +53,10 @@
     "globals": {
       "kakao": false
     }
+  },
+  "eslintConfig": {
+    "globals": {
+      "kakao": false
+    }
   }
 }
